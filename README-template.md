@@ -1,3 +1,5 @@
+Here's a detailed README based on your provided HTML and CSS, following the given template:
+
 # Frontend Mentor - Recipe page solution
 
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -6,7 +8,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -16,26 +17,19 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
-### Screenshot
+### The challenge
 
-![](./screenshot.jpg)
+Users should be able to:
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+- View the optimal layout for the recipe page depending on their device's screen size.
+- See hover and focus states for interactive elements on the page.
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [file:///C:/Users/Dumisani/Frontend-Mentor---Recipe-page/index.html](file:///C:/Users/Dumisani/Frontend-Mentor---Recipe-page/index.html)
 
 ## My process
 
@@ -46,59 +40,63 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+During this project, I reinforced my understanding of several key concepts in web development. Here are some examples:
 
-To see how you can add code snippets, see below:
+1. **Centering Elements**:
+   Using `margin: 0 auto;` to center block elements within their parent container.
+   ```css
+   .margin {
+     max-width: 1440px;
+     margin: 0 auto;
+     padding: 30px;
+   }
+   ```
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+2. **Responsive Design**:
+   Utilizing media queries to adapt the layout for different screen sizes.
+   ```css
+   @media only screen and (max-width: 768px) {
+     .margin {
+       max-width: 375px;
+       margin: 0 auto;
+       padding: 20px;
+     }
+   }
+   ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+3. **Typography**:
+   Applying custom fonts from Google Fonts and setting font properties.
+   ```css
+   h1 {
+     font-family: "Young Serif", serif;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 300%;
+     color: hsl(24, 5%, 18%);
+   }
+   ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In future projects, I want to continue focusing on:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- **Advanced CSS Layouts**: Mastering CSS Grid and Flexbox for complex layouts.
+- **JavaScript Integration**: Adding interactivity to static pages.
+- **Accessibility**: Ensuring my projects are accessible to all users.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CSS-Tricks](https://css-tricks.com) - This website has comprehensive guides on various CSS techniques, including Flexbox and Grid.
+- [MDN Web Docs](https://developer.mozilla.org) - An excellent resource for understanding HTML, CSS, and JavaScript in depth.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Dumisani Nxumalo](https://github.com/Duma107/Frontend-Mentor---Recipe-page.git)
+- Frontend Mentor - [@duma107](https://www.frontendmentor.io/home)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thanks to Frontend Mentor for providing a platform that helps developers improve their coding skills by building realistic projects. Special thanks to the community for providing feedback and support.
